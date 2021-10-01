@@ -1,0 +1,246 @@
+html, body {
+  height: 100vh;
+}
+
+:root {
+  --color-default: #e8eaed;
+  --color-invalid: red;
+  --color-valid: #e8eaed;
+}
+
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.align-right {
+  width: 319px;
+  margin-left: auto;
+  margin-top: 8px;
+}
+
+.checkout-bg {
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+  background-color: #f5f6f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+}
+
+.checkout-box {
+  width: fit-content;
+}
+
+.checkout {
+  width: 480px;
+  padding: 48px 24px 24px 24px;
+  background-color: #fff;
+}
+
+.pay-description {
+  width: 228px;
+  height: 42px;
+  font-family: AppleSDGothicNeo;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #68686b;
+  margin: 24px auto;
+}
+
+.divider {
+  width: 432px;
+  height: 1px;
+  margin: 31px 23px 32px 0;
+  background-color: #e8eaed;
+}
+
+/* form */
+
+.form-title {
+  font-family: AppleSDGothicNeo;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #1e1e20;
+}
+
+.form-sub-title {
+  font-family: NotoSansCJKkr;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #1e1e20;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 16px;
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #1e1e20;
+}
+
+.form-control {
+  width: 319px;
+  height: 48px;
+  padding: 16px 14px;
+  border-radius: 8px;
+  border: solid 1px var(--color-default);
+}
+
+/* form validation */
+
+/* .error-message {
+  display: none;
+}
+
+.form-control:not(:focus):invalid {
+  border-color: var(--color-invalid);
+} */
+
+
+/* .form-control:not(:focus):invalid ~ .error-message {
+  display: block; 
+} */
+
+/* .form-control:not(:focus):valid {
+  border-color: var(--color-valid);
+} */
+
+.form-control:read-only {
+  width: 319px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #f5f6f8;
+  color: #68686b;
+}
+
+.form-check-group {
+  margin-top: 15px;
+}
+
+.form-check-input {
+  vertical-align: top;
+}
+
+
+.form-check-label {
+  font-family: AppleSDGothicNeo;
+  font-size: 14px;
+  color: #68686b;
+}
+
+.form-radio-input {
+  vertical-align: top;
+}
+
+.form-radio-label {
+  font-family: AppleSDGothicNeo;
+  font-size: 14px;
+  color: #68686b;
+}
+
+/* input notice */
+
+.input-notice {
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  color: #aaaab1;
+}
+
+/* button */
+
+.primary-btn {
+  border: none;
+  width: 100%;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #455eef;
+  font-family: AppleSDGothicNeo;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* footer */
+
+.footer {
+  margin-top: 32px;
+  margin-bottom: 48px;
+}
+
+.footer_title {
+  width: 24px;
+  height: 20px;
+  font-family: AppleSDGothicNeo;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #68686b;
+}
+
+.footer_detail {
+  width: 360px;
+  height: 40px;
+  font-family: AppleSDGothicNeo;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #68686b;
+}
+
+/* pay button */
+
+.pay-btn-box {
+  margin-top: 47px;
+}
+
+/* detail popup */
+
+.detail-popup {
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #68686b;
+  text-decoration: underline;
+  cursor: pointer;
+}
